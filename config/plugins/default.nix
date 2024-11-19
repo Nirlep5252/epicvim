@@ -20,8 +20,9 @@
     # nix
     nix.enable = true;
 
-    # view binary files
-    hex.enable = true;
+    # preview of files
+    hex.enable = true; # binary
+    markview.enable = true; # markdown
 
     which-key.enable = true;
   };
