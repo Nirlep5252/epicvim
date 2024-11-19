@@ -6,7 +6,7 @@
 
 # Installation
 
-Ensure the [Nix](https://nixos.org/download/) is installed.
+Ensure that [Nix](https://nixos.org/download/) is installed.
 
 ## Quick Run
 
