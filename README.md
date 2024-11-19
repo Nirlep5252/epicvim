@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d1602248-a2b9-4f1c-a49a-c59e528e56cd)![EpicVim](https://github.com/user-attachments/assets/5ce7a632-5237-46a9-afcf-d31500792ae8)
+![EpicVim](https://github.com/user-attachments/assets/5ce7a632-5237-46a9-afcf-d31500792ae8)
 
 # Preview
 
