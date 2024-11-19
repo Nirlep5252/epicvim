@@ -1,6 +1,1 @@
-{
-  colorschemes.catppuccin = {
-    enable = true;
-    settings = { flavor = "mocha"; };
-  };
-}
+{ colorschemes.tokyonight = { enable = true; }; }
