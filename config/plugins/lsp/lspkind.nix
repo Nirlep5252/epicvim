@@ -1,0 +1,1 @@
+{ plugins.lspkind = { enable = true; }; }
