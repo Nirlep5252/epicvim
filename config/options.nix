@@ -15,6 +15,9 @@
     scrolloff = 8;
 
     guifont = "GeistMono Nerd Font:12";
+
+    list = true;
+    listchars = "space:·";
   };
 
   keymaps = [
