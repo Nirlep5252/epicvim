@@ -2,12 +2,29 @@
   plugins.lualine = {
     enable = true;
     settings = {
+      globalstatus = true;
+      disabled_filetypes = {
+        statusline = [
+          "dashboard"
+          "alpha"
+          "starter"
+        ];
+      };
       sections = {
         lualine_a = [
-          "mode"
+          {
+            __unkeyed = "mode";
+            separator.left = "";
+            separator.right = "";
+          }
         ];
         lualine_b = [
-          "branch"
+          {
+            __unkeyed = "branch";
+            icon = "";
+            separator.left = "";
+            separator.right = "";
+          }
         ];
         lualine_c = [
           {
@@ -18,18 +35,40 @@
               info = " ";
               hint = "󰝶 ";
             };
+            separator.left = "";
+            separator.right = "";
           }
         ];
         lualine_x = [
-          "encoding"
-          "fileformat"
-          "filetype"
+          {
+            __unkeyed = "encoding";
+            separator.left = "";
+            separator.right = "";
+          }
+          {
+            __unkeyed = "fileformat";
+            separator.left = "";
+            separator.right = "";
+          }
+          {
+            __unkeyed = "filetype";
+            separator.left = "";
+            separator.right = "";
+          }
         ];
         lualine_y = [
-          "progress"
+          {
+            __unkeyed = "progress";
+            separator.left = "";
+            separator.right = "";
+          }
         ];
         lualine_z = [
-          "location"
+          {
+            __unkeyed = "location";
+            separator.left = "";
+            separator.right = "";
+          }
         ];
       };
     };
