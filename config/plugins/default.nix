@@ -28,20 +28,19 @@
   };
 
   imports = [
-    ./ui/default.nix
-    ./lsp/default.nix
-    ./git/default.nix
-    ./ai/default.nix
+    ./ai
+    ./git
+    ./lsp
+    ./snacks
+    ./ui
 
     ./auto-session.nix
-    ./bufdelete.nix
     ./bufferline.nix
     ./comment.nix
     ./conform.nix
     ./flash.nix
     ./fugitive.nix
     ./guess-indent.nix
-    ./lazygit.nix
     ./neo-tree.nix
     ./telescope.nix
     ./todo-comments.nix

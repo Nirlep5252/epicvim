@@ -1,8 +1,6 @@
 {
-  plugins.bufdelete = { enable = true; };
-
   keymaps = [{
-    action = "<cmd>Bdelete<CR>";
+    action = "<cmd>lua Snacks.bufdelete()<CR>";
     key = "<leader>x";
     mode = [ "n" ];
     options = { silent = true; };
