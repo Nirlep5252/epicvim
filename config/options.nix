@@ -17,7 +17,7 @@
     guifont = "GeistMono Nerd Font:12";
 
     list = true;
-    listchars = "space:·";
+    listchars = "space:·,tab:»·";
   };
 
   keymaps = [
