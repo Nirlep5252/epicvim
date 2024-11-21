@@ -7,6 +7,7 @@
     ./docker.nix
     ./emmet.nix
     ./eslint.nix
+    ./go.nix
     ./html.nix
     ./nil_ls.nix
     ./python.nix
@@ -20,7 +21,6 @@
 
     ./lsp-format.nix
     ./lsp-lines.nix
-    # ./lsp-signature.nix
     ./lspkind.nix
     ./lspsaga.nix
   ];
