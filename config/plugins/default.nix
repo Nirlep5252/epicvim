@@ -35,7 +35,6 @@
     ./ui
 
     ./auto-session.nix
-    ./bufferline.nix
     ./comment.nix
     ./conform.nix
     ./flash.nix
