@@ -28,7 +28,7 @@
   };
 
   imports = [
-    ./ai
+    # ./ai
     ./git
     ./lsp
     ./snacks
